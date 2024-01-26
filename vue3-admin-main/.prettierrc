@@ -10,7 +10,7 @@
   "trailingComma": "all",
   "singleAttributePerLine": false,
   "htmlWhitespaceSensitivity": "css",
-  "vueIndentScriptAndStyle": false,
+  "vueIndentScriptAndStyle": false, 
   "proseWrap": "preserve",
   "insertPragma": false,
   "printWidth": 80,

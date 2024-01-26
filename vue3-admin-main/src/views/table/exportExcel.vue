@@ -14,7 +14,7 @@
           align="center"></el-table-column>
         <el-table-column prop="name" label="姓名"></el-table-column>
         <el-table-column prop="sno" label="学号"></el-table-column>
-        <el-table-column prop="class" label="班级"></el-table-column>
+        <el-table-column prop="class" label="班级"></el-table-column> 
         <el-table-column prop="age" label="年龄"></el-table-column>
         <el-table-column prop="sex" label="性别"></el-table-column>
       </el-table>

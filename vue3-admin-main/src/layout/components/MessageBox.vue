@@ -11,6 +11,6 @@
   type: 'success',
   offset: 50,
   duration: 2000,
-  position: 'bottom-right',
+  position: 'bottom-right', 
  })
 </script>

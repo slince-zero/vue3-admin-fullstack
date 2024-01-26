@@ -9,7 +9,7 @@ const router = createRouter({
       name: 'login',
       meta: {
         requireVisitor: true, // 用户已经登录不能访问
-      },
+      }, 
       component: () => import('../views/login/login.vue'),
     },
     {

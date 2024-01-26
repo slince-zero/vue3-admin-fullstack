@@ -13,7 +13,7 @@ const roseChart = ref(null)
 onMounted(() => {
   // 基础饼状图
   const myChart = echarts.init(pipeChart_basic.value)
-  const option = {
+  const option = { 
     series: [
       {
         type: 'pie',

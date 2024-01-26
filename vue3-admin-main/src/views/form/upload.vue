@@ -9,7 +9,7 @@
       <el-icon class="el-icon--upload"><upload-filled /></el-icon>
       <div class="el-upload__text">
         Drop file here or <em>click to upload</em>
-      </div>
+      </div> 
       <template #tip>
         <div class="el-upload__tip">
           jpg/png files with a size less than 500kb

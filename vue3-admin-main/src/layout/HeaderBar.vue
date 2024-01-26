@@ -11,7 +11,7 @@
         </el-icon>
       </el-button>
       <!-- 面包屑 -->
-      <BreadCrumb></BreadCrumb>
+      <BreadCrumb></BreadCrumb> 
     </div>
     <div class="header-right">
       <!-- 全屏组件 -->

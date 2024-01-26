@@ -171,7 +171,7 @@ const getCaptchaImg = async () => {
     margin: 0 50px;
   }
   .title {
-    font-size: 40px;
+    font-size: 40px; 
     color: #0693e3;
     margin-bottom: 10px;
   }

@@ -10,7 +10,7 @@ const initTabs = [
 
 export const useAppStore = defineStore('app', {
   state: () => {
-    return {
+    return { 
       topNav: initTabs, // 导航栏，没有值的时候，要默认打开首页
       asideCollapse: false, // 侧边栏收起
       darkMode: false, // 暗黑模式,默认不开启

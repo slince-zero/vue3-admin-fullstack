@@ -9,7 +9,7 @@
   </div>
 </template>
 <script setup>
-import { useDark } from '@vueuse/core'
+import { useDark } from '@vueuse/core' 
 import { useAppStore } from '../../store/app'
 
 const store = useAppStore()

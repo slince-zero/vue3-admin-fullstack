@@ -12,7 +12,7 @@
       </template>
       <!-- 递归调用组件，直到没有子菜单 -->
       <TreeMenu :routerMenu="menu.children"></TreeMenu>
-    </el-sub-menu>
+    </el-sub-menu> 
     <el-menu-item v-else :index="menu.path" :key="menu.name">
       <el-icon>
         <component :is="menu.icon"></component>

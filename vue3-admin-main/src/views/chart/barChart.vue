@@ -15,7 +15,7 @@ onMounted(() => {
   const myChart = echarts.init(barChart_basic.value)
   const option = {
     xAxis: {
-      data: ['A', 'B', 'C', 'D', 'E'],
+      data: ['A', 'B', 'C', 'D', 'E'], 
     },
     yAxis: {},
     series: [

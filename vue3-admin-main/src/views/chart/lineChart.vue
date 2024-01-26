@@ -14,7 +14,7 @@ const stacked_lineChart = ref(null)
 onMounted(() => {
   // 基础折线图
   const myChart = echarts.init(lineChart_basic.value)
-  const option = {
+  const option = { 
     xAxis: {
       type: 'category',
       data: ['A', 'B', 'C', 'D', 'E', 'F'],

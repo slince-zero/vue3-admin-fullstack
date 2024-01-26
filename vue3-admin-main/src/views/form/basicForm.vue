@@ -13,7 +13,7 @@
       <el-form-item label="时间">
         <el-col :span="11">
           <el-date-picker
-            v-model="form.date1"
+            v-model="form.date1" 
             type="date"
             placeholder="选择一个日期"
             style="width: 100%" />

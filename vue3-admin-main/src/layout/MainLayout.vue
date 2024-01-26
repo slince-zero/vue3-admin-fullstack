@@ -12,7 +12,7 @@
     <TabsChrome></TabsChrome>
     <el-main>
      <router-view></router-view>
-    </el-main>
+    </el-main> 
    </el-container>
   </el-container>
   <!-- 由于是异步组件,所以需要用Suspense，因此单独抽离了一个组件包裹在 Suspense 中 -->

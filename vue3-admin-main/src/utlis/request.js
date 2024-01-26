@@ -12,7 +12,7 @@ const service = axios.create({
 // 请求拦截器
 service.interceptors.request.use(
   (req) => {
-    // 在发送请求之前做一些处理，比如添加请求头、处理请求参数等
+    // 在发送请求之前做一些处理，比如添加请求头、处理请求参数等 
     const headers = req.headers
     let token = ''
     try {

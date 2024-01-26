@@ -10,7 +10,7 @@
         class="el-menu"
         :collapse="asideCollapse"
         :default-active="route.path">
-        <TreeMenu :routerMenu="routerMenu"></TreeMenu>
+        <TreeMenu :routerMenu="routerMenu"></TreeMenu> 
       </el-menu>
     </div>
   </el-scrollbar>

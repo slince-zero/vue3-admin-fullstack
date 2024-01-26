@@ -14,7 +14,7 @@
           placeholder="用户名"
           class="handle-input mr10"></el-input>
         <el-button type="primary" :icon="Search" @click="handleSearch"
-          >搜索</el-button
+          >搜索</el-button 
         >
         <el-button type="primary" :icon="Plus" @click="handleAdd"
           >新增</el-button

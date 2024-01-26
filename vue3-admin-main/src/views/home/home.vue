@@ -14,7 +14,7 @@
             </div>
           </div>
         </el-col>
-        <el-col :span="6">
+        <el-col :span="6"> 
           <div class="banner-card">
             <el-card shadow="always" class="card-conversion">
               <el-progress

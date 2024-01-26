@@ -12,7 +12,7 @@ import { useAppStore } from '../../store/app'
 import { watchEffect } from 'vue'
 import 'md-editor-v3/lib/style.css'
 
-const store = useAppStore()
+const store = useAppStore() 
 const theme_change = ref('')
 watchEffect(() => {
   theme_change.value = store.darkMode == true ? 'dark' : 'light'

@@ -10,7 +10,7 @@ export const routerMenu = [
     },
   },
   {
-    path: '/other',
+    path: '/other', 
     name: 'other',
     icon: 'ToiletPaper',
     meta: {

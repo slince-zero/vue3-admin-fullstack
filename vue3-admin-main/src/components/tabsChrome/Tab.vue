@@ -6,7 +6,7 @@
     <div
       @click.stop="closeTab"
       class="close-icon"
-      v-if="active&& tab.closeable ">
+      v-if="active && tab.closeable">
       <svg width="16" height="16" stroke="#595959">
         <path d="M 4 4 L 12 12 M 12 4 L 4 12"></path>
       </svg>
@@ -21,7 +21,6 @@
 </template>
 <script setup>
 const props = defineProps(['active', 'tab'])
-
 
 // 获取 emit
 const emit = defineEmits(['closeTab'])

@@ -11,7 +11,7 @@ const { isFullscreen, toggle } = useFullscreen()
 </script>
 <style scoped>
 .full-screen {
-    cursor: pointer;
+    cursor: pointer; 
     width: 16px;
     height: 16px;
 }
