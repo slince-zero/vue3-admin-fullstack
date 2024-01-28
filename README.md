@@ -23,8 +23,11 @@
 
 ```
 cd vue3-admin-main
+
 npm install
+
 cd vue3-admin-server
+
 npm install
 ```
 
