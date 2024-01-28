@@ -34,8 +34,13 @@ npm install
 
 ```
 cd vue3-admin-main
+
 npm run dev
+
 cd vue3-admin-server
+
+npx prisma migrate dev  // 这行代码是为了自动创建表到本地数据库当中
+
 npm run start:dev
 ```
 
